@@ -1,0 +1,53 @@
+* {
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* root */
+:root {
+  --main-color: #2b3a67;
+  --secondary: #496a81;
+  --third-color: #66999b;
+  /* #B3AF8F */
+  /* #FFC482 */
+}
+
+header {
+  display: flex;
+  justify-content: space-around;
+  background-color: var(--main-color);
+}
+
+header .logo {
+  font-size: 30px;
+  color: white;
+  font-weight: bold;
+  text-decoration: none;
+  display: block;
+}
+
+ul {
+  display: flex;
+  list-style-type: none;
+  margin-top: 12px;
+}
+
+li .active {
+  font-weight: bold;
+}
+
+a {
+  display: block;
+  padding: 20px;
+  color: white;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: var(--secondary);
+  color: white;
+  border-radius: 15px;
+  transition: ease-in-out 0.3s;
+}
