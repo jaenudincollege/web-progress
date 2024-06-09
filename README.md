@@ -7,3 +7,7 @@ dan juga commit pertamanya.
 
 saya berharap dengan adanya repositori ini, saya dapat
 meningkatkan kemampuan saya khusunya di bidang web developer
+
+#day2
+hari ini belajar membuat website menggunakan flexbox
+dari website theodinproject. cukup sulit tapi fun, i enjoy it
